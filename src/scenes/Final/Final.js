@@ -42,7 +42,7 @@ function Final (props) {
         </div>
         <div  className="final-screen__photo">
             <img 
-                src={`../../../assets/images/${userInfo.catPhotoName.value}.jpg`}
+                src={`assets/images/${userInfo.catPhotoName.value}.jpg`}
                 className="final-screen__photo__image"
                 alt="avatar" />
         </div>        

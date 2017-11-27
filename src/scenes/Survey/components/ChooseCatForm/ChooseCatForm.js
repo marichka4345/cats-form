@@ -39,7 +39,7 @@ class ChooseCatForm extends Component {
     render () {
     return <CommonForm fieldNames={["catPhotoName"]}>
             <div className="cats-images">
-                    {fileNames.map(name => <img src={`../../../../assets/images/${name}.jpg`}
+                    {fileNames.map(name => <img src={`assets/images/${name}.jpg`}
                                             key={name}
                                             onClick={() => this.handleClick(name)}
                                             className={this.defineClass(name, 'cats-images__item')}

@@ -24,12 +24,12 @@ class ChooseCountryForm extends Component {
 
 
     getCountries () {
-        axios.get('../assets/json/countries.json')
+        axios.get('assets/json/countries.json')
         .then(response => this.setState({countries: Object.entries(response.data)}));
     }
 
     getCities () {
-        axios.get('../assets/json/cities.json')
+        axios.get('assets/json/cities.json')
             .then(response => this.setState({cities: response.data}));
     }
 
