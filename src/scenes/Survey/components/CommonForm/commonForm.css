@@ -1,0 +1,14 @@
+.survey-form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 40px;
+    min-height: 265px;
+}
+
+@media screen and (max-width: 750px) {
+    .survey-form {
+        margin-bottom: 30px;
+        min-height: 0;
+    }
+}

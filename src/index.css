@@ -1,0 +1,26 @@
+body {
+  --bgcolor-main: #f5f5f5;
+  --inactive-text-color: #bbbbbb;
+  --active-text-color: #ff9800;
+  --inactive-navbutton-color: #ffbf63;
+  --error-color: #ff0000;
+
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: var(--bgcolor-main);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.root {
+  display: flex;
+  padding-top: 100px;
+}
+
+@media screen and (max-width: 750px) {
+    .root {
+        padding: 30px 0;
+        min-height: 100vh;
+        box-sizing: border-box;
+    }
+}
